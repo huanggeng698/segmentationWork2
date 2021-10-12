@@ -1,0 +1,2 @@
+运行main.py文件，分别测试以xception, vgg16_bn, resnet50, resnet101为backbone的deeplabvPlus系列模型
+需要注意的是，除xception外，其余模型均提供预训练模型，若在xception模型参数中设置pretrained=True, 将会raise NotImplementedError
